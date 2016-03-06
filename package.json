@@ -1,0 +1,22 @@
+{
+  "name": "imdb-bot",
+  "version": "1.0.0",
+  "description": "IMDb-bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascavalheiro/IMDb-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucascavalheiro/IMDb-bot/issues"
+  },
+  "homepage": "https://github.com/lucascavalheiro/IMDb-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.20.1"
+  }
+}
