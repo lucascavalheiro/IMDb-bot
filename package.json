@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lucascavalheiro/IMDb-bot#readme",
   "dependencies": {
+    "express": "^4.13.4",
     "node-telegram-bot-api": "^0.20.1"
   }
 }
