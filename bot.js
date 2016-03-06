@@ -7,9 +7,11 @@ console.log('bot server started...');
 
 // hello command
 bot.onText(/^\/say_hello (.+)$/, function (msg, match) {
+	console.log('name');
   var name = match[1];
   bot.sendMessage(msg.chat.id, 'Hello ' + name + '!').then(function () {
     // reply sent!
+    console.log('reply sent');
   });
 });
 
